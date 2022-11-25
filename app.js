@@ -86,6 +86,6 @@ app.get("/posts/:postName", function(req,res) {
 
 
 // log server run on port 3000
-app.listen(3000 || '0.0.0.0:$PORT', function() {
+app.listen(3000 || process.env.PORT, function() {
     console.log("server runnning port 3000");
 })

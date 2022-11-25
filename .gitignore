@@ -4,7 +4,7 @@
 *.xd
 
 # Folders
-node_modules/
+# node_modules/
 
 # Specific
 .DS_Store
